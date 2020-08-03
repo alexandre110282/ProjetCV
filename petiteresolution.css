@@ -1,0 +1,27 @@
+@media screen and (max-width: 1024px)
+
+{
+body
+{max-width: 1024px;
+}
+
+#contenu
+{max-width: 80%;
+font-size: 0.7em;}
+
+.bb li
+{margin-bottom: 55px;}
+ 
+.ab li
+{margin-bottom: 80px;}
+
+#contenu img
+{margin-bottom: 3px;}
+
+#contenu h2
+{font-size: 1.5em;}
+
+#section
+{display: flex;
+justify-content: space-around;}
+
