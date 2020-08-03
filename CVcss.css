@@ -120,7 +120,7 @@ list-style-type: none;}
 
 #experience, #formation
 {display: flex;
-justify-content: space-between;
+justify-content:space-between;
  }
 
 #ac,#cc 
