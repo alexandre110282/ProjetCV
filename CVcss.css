@@ -1,83 +1,90 @@
-
 body
-{max-width: 1085px;
-border: 2px solid black;
-align-content: center;
-font-family: 'verdana';
-font-size: 0.8em;}
-
-
-section
-{
+{	width: 1100px;
 	display: flex;
-	flex-direction: column;
-	margin-top: -50px;
+	flex-direction: row-reverse;
+	justify-content: flex-end;
+	border: 2px solid black;
+	font-family: 'verdana';
+	font-size: 0.8em;
 }
-
-#contact, #propos,#loisir
+header
 {
-	border: 2px black solid;
-	background-color: rgb(64,64,64);
-	max-height: 30px;
-	padding-bottom: 25px;
+	padding-bottom: 9%;
+	text-align: left;
 }
 
-#contact h2, #propos h2, #loisir  h2
-{color: #e3e034;
-font-family: 'verdana;'}
-
-
-#propos p
-{max-width: 170px;
-margin-left: 40px;
-margin-top: 40px;}
-
-#loisir
-{margin-top: 400px;
+header h1
+{
+	font-size: xx-large;
 }
 
-#loisir img
-{display: inline-block;
-margin-left: 40px;
-padding-top: 50px;}
-
-
-#experience,#formation,#recommandation
-{max-width: 700px;}
+header h2, h3
+{
+	margin-bottom: 0px;
+}
 
 #contenu
 {
-	display: flex;
-	flex-direction: column;
-	margin-left: 35px;
-	margin-top: 35px
+	width: 65%;
+	margin: 4%;
 }
 
-
-#liseret, #contenu
+h3 i
 {
-	display: inline-block;
-	vertical-align: top;
+ 	width: 35px;
+ 	margin: 1%;
 }
 
-#contenu h2
-{margin-right: 350px;
-padding-top: 35px;
+#line
+{
+	border-bottom: 3px solid;
+    width: 12%;
 }
 
 hr
-{height: 3px;
-	background-color: #e3e034;
+{
+	height: 3px;
 	width:100%;
 	border:none;
-	margin-top: -11px; 
 }
 
-#liseret
+li
+{
+	display:flex;
+  	flex-direction: row;
+}
+
+.annee
+{
+	margin-bottom: 5%;
+}
+
+.annee i
+{
+	margin-right: 10px;
+}
+
+.diplome
+{
+	margin-left: 11%;
+}
+
+#formation .annee
+{
+	font-weight: bold;
+}
+
+#recommandation
+{
+	display: flex;
+	justify-content:space-around;
+	margin-right: 7%;
+}
+
+aside
 {
 	width: 25%;
-	height: 1200px;
-	background-color: #e3e034;
+	padding-bottom: 12%;
 	align-items: center;
 }
 
@@ -86,74 +93,57 @@ hr
 	text-align: center;
 }
 
- #contenu h1
+#liseret a img
 {
-	color: red;
-	padding-bottom: 90px;
-	text-align: left;
-	font-size: xx-large;
+	border-radius: 20%;
+  	margin-left: 29%;
+} 
+
+#liseret address
+{
+	margin:10%;
 }
 
- #contenu img
- {
- 	width: 35px;
- 	margin-bottom: -10px;
- 	margin-left: 25px;
- 	margin-right: 20px;
- 	color: #e3e034
- }
+#contact, #propos, #loisir
+{
+	border: 2px black solid;
+	background-color: rgb(64,64,64);
+	max-height: 30px;
+	padding-bottom: 7.5%;
+}
 
+#propos
+{ 
+	margin-top: 86%;
+}
 
-#liseret p img
-{border-radius: 20px;
-  margin-left: 75px;
- } 
+#propos p
+{
+	max-width: 63%;
+	margin:15%;
+}
 
-#liseret ul
-{margin-left: -12px;
-list-style-type: none;}
+#loisir
+{
+	margin-top: 116%;
+}
 
-#liseret li
-{margin-bottom: 12px;
+#loisir i
+{
+ 	border-radius: 50%;
+ 	border: 1px solid black;
+ 	padding: 4%;
+ 	margin-left: 7%;
+ 	margin-top: 15%;
 }
 
 
-#experience, #formation
-{display: flex;
-justify-content:space-between;
- }
+#liseret h2, #line, header h1, #contenu i
+{
+	color: #CDDC39;
+}
 
-#ac,#cc 
-{display: inline-block;
-justifi-content:space-between}
-
-.ab
-{max-width: 300px;}
-
-.ab li
-{margin-bottom: 40px;}
-
-.aa li
-{margin-bottom:72px; }
-
-.ba li
-{margin-bottom: 30px;}
-
-.bb li
-{margin-bottom: 48px;}
-
-.bb li
-{max-width: 400px;}
-
-.ab li, .bb li 
-{ margin-left: -400px;
- }
-
-.bb li, .ab li
-{max-width: 300px;}
-
-.ab li, .bb li
-{list-style-type: none;}
-
-.aa ul, .ba ul
-{list-style-image: url('point.png');}
+#loisir i, aside, hr
+{
+	background-color: #CDDC39;
+}
