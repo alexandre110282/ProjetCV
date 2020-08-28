@@ -14,7 +14,7 @@ header
 
 header h1
 {
-	font-size: xx-large;
+	font-size: 3em;
 }
 
 header h2, h3
@@ -22,7 +22,7 @@ header h2, h3
 	margin-bottom: 0px;
 }
 
-#contenu
+main
 {
 	width: 65%;
 	margin: 4%;
@@ -53,7 +53,7 @@ li
 
 .annee
 {
-	margin-bottom: 5%;
+	margin-bottom: 3%;
 }
 
 .annee i
@@ -63,10 +63,12 @@ li
 
 .diplome
 {
-	margin-left: 11%;
+	margin-left: 10%;
+    text-align: justify;
+    width: 80%
 }
 
-#formation .annee
+.annee
 {
 	font-weight: bold;
 }
@@ -84,18 +86,22 @@ aside
 	align-items: center;
 }
 
-#liseret h2
+aside h2
 {
 	text-align: center;
 }
 
-#liseret a img
+aside a img
 {
-	border-radius: 20%;
-  	margin-left: 29%;
-} 
+    margin-left: 22%;
+    width: 150px;
+    height: 150px;
+    border: none;
+    border-radius: 50%;
+    object-fit: cover
+}
 
-#liseret address
+aside address
 {
 	margin:10%;
 }
@@ -104,13 +110,20 @@ aside
 {
 	border: 2px black solid;
 	background-color: rgb(64,64,64);
-	max-height: 38px;
+	max-height: 40px;
 	padding-bottom: 7.5%;
+}
+
+#fa-gamepad
+{
+	 width: 42px;
+    height: 39px;
+    font-size: 3em;  
 }
 
 #propos
 { 
-	margin-top: 86%;
+	margin-top: 105%;
 }
 
 #propos p
@@ -121,7 +134,7 @@ aside
 
 #loisir
 {
-	margin-top: 116%;
+	margin-top: 32em;
 }
 
 #loisir i
@@ -134,7 +147,7 @@ aside
 }
 
 
-#liseret h2, #line, header h1, #contenu i
+aside h2, #line, header h1, main i
 {
 	color: #CDDC39;
 }
