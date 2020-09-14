@@ -1,0 +1,41 @@
+@media screen and ( max-width: 768px)
+{
+	
+	body
+	{
+		display: flex;
+		flex-direction: column-reverse;
+	}
+
+	aside
+	{
+		width: 100%;
+		text-align: center;
+	}
+
+	aside img
+	{
+		margin-right: 20%;
+	}
+
+	#loisir
+	{
+		padding-top:2%; 
+	}
+
+	#loisir i
+	{
+		padding-bottom: 4%;
+	}
+
+	main
+	{
+		display: flex;
+		flex-direction: column;
+	}
+
+	li
+	{
+		display: inline-block;
+	}
+}	
