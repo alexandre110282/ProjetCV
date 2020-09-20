@@ -1,0 +1,97 @@
+body {
+  width: 100%;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  border: 2px solid black;
+  font-family: 'verdana';
+  font-size: 0.8em; }
+
+header {
+  padding-bottom: 9%; }
+
+header h1 {
+  font-size: 3em; }
+
+header h2, h3 {
+  margin-bottom: 0px; }
+
+main {
+  width: 65%;
+  margin: 4%; }
+
+h3 i {
+  width: 35px;
+  margin: 1%; }
+
+#line {
+  border-bottom: 3px solid;
+  width: 12%; }
+
+hr {
+  height: 3px;
+  border: none; }
+
+li {
+  display: flex; }
+
+.annee {
+  margin-bottom: 3%;
+  font-weight: bold; }
+
+.annee i {
+  margin-right: 10px; }
+
+.diplome {
+  margin-left: 10%;
+  text-align: justify;
+  width: 80%; }
+
+#recommandation {
+  display: flex;
+  justify-content: space-around;
+  margin-right: 7%; }
+
+aside {
+  width: 25%;
+  align-items: center; }
+
+aside h2 {
+  text-align: center;
+  border: 2px black solid;
+  background-color: #404040; }
+
+aside a img {
+  margin-left: 22%;
+  width: 150px;
+  height: 150px;
+  border: none;
+  border-radius: 50%;
+  object-fit: cover; }
+
+aside address {
+  margin: 10%; }
+
+#loisir {
+  padding-top: 59%; }
+
+.gamepad {
+  width: 42px;
+  height: 39px;
+  font-size: 3em; }
+
+#propos p {
+  max-width: 63%;
+  margin: 15%; }
+
+#loisir i {
+  border-radius: 50%;
+  border: 1px solid black;
+  padding: 4%;
+  margin: 6.5%; }
+
+aside h2, #line, header h1, main i {
+  color: #CDDC39; }
+
+#loisir i, aside, hr {
+  background-color: #CDDC39; }
